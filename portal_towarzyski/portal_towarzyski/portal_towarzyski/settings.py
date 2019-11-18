@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+
 ]
 
 MIDDLEWARE = [
@@ -76,12 +78,12 @@ WSGI_APPLICATION = 'portal_towarzyski.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    'default':{
+    'default': {
         'ENGINE': 'mysql.connector.django',
         'HOST': '213.184.8.199',
         'PORT': '3306',
-        'NAME': 'suchodolski',
-        'USER': 'suchodolski',
+        'NAME': 'suchodolskim',
+        'USER': 'suchodolskim',
         'PASSWORD': 'mateusz',
     }
 }
