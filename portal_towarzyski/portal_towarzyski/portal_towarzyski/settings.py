@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'portal_towarzyski.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
+        'ENGINE': 'django.db.backends.mysql',
         'HOST': '213.184.8.199',
         'PORT': '3306',
         'NAME': 'suchodolskim',
