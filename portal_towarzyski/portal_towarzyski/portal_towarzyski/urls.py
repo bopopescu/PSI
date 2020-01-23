@@ -22,3 +22,4 @@ urlpatterns = [
     path('portal_towarzyski/', include('portal_towarzyski.urls')),
     path('', include('portal_towarzyski.urls')),
 ]
+

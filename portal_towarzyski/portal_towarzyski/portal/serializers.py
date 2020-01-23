@@ -1,9 +1,9 @@
-from .models import Zainteresowania_uzytkownika, Dane_uzytkownika, Znajomi, Znajomi_has_zainteresowania_uzytkownik
+from .models import Zainteresowania, Dane_uzytkownika, Znajomi, Znajomi_has_zainteresowania_uzytkownik
 from rest_framework import serializers
 
 class Zainteresowania_uzytkownika_Serializer(serializers.Serializer):
     class Meta:
-        model = Zainteresowania_uzytkownika
+        model = Zainteresowania
         fields = '__all__'
 
 class Dane_uzytkownika_Serializer(serializers.Serializer):

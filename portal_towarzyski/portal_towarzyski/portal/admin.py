@@ -3,6 +3,6 @@ from django.contrib import admin
 # Register your models here.
 from django.contrib import admin
 
-from .models import Zainteresowania_uzytkownika
+from .models import Zainteresowania
 
-admin.site.register(Zainteresowania_uzytkownika)
+admin.site.register(Zainteresowania)
